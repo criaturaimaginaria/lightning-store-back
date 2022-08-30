@@ -1,0 +1,24 @@
+{
+  "name": "buda-lightning-invoice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "nodemon": "^2.0.19",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "underscore": "1.8.3"
+  }
+}
